@@ -1,0 +1,4 @@
+query ID	homology ID (human ID)	% identity	matched len	mismatched len	Gap	query start	query end	subjenct(DB) start	subject(DB) end	e-value	bit score
+YFL039C	lcl|NC_000005.10_cds_NP_001017992.1_33223	71.441	1117	305	14	17	1126	20	1129	1.07E-74	283
+YFL037W	lcl|NC_000009.12_cds_NP_006079.1_57074	69.534	988	279	21	301	1277	301	1277	1.08E-30	137
+YOL054W	lcl|NC_000006.12_cds_XP_016866857.1_39382	91.304	46	4	0	771	816	459	504	1.65E-08	63.9

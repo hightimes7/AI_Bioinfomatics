@@ -1,0 +1,27 @@
+if (! require(edgeR)) {
+   source("https://bioconductor.org/biocLite.R")
+   biocLite("edgeR")
+   library(edgeR)
+}
+
+data = read.table("/data1/bioinfoAI/user02/RNAseq/rsem/RSEM.isoform.counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(1,2,3,4,5,6)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = factor(c(rep("con_C", 3), rep("con_E", 3)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+exp_study = estimateDisp(exp_study)
+et = exactTest(exp_study, pair=c("con_C", "con_E"))
+tTags = topTags(et,n=NULL)
+result_table = tTags$table
+result_table = data.frame(sampleA="con_C", sampleB="con_E", result_table)
+result_table$logFC = -1 * result_table$logFC
+write.table(result_table, file='RSEM.isoform.counts.matrix.con_C_vs_con_E.edgeR.DE_results', sep='	', quote=F, row.names=T)
+write.table(rnaseqMatrix, file='RSEM.isoform.counts.matrix.con_C_vs_con_E.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+source("/usr/local/bin/trinityrnaseq-v2.12.0/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("RSEM.isoform.counts.matrix.con_C_vs_con_E.edgeR.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()

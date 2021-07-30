@@ -1,0 +1,173 @@
+Trimmomatic start!
+TrimmomaticPE: Started with arguments:
+ -summary con_C_rep1.stats con_C_rep1_1.fastq.gz con_C_rep1_2.fastq.gz con_C_rep1_paired_1.fq.gz con_C_rep1_unpaired_1.fq.gz con_C_rep1_paired_2.fq.gz con_C_rep1_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3088802 Both Surviving: 3083806 (99.84%) Forward Only Surviving: 3951 (0.13%) Reverse Only Surviving: 63 (0.00%) Dropped: 982 (0.03%)
+TrimmomaticPE: Completed successfully
+con_C_rep1 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_C_rep2.stats con_C_rep2_1.fastq.gz con_C_rep2_2.fastq.gz con_C_rep2_paired_1.fq.gz con_C_rep2_unpaired_1.fq.gz con_C_rep2_paired_2.fq.gz con_C_rep2_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3062973 Both Surviving: 3057806 (99.83%) Forward Only Surviving: 4024 (0.13%) Reverse Only Surviving: 43 (0.00%) Dropped: 1100 (0.04%)
+TrimmomaticPE: Completed successfully
+con_C_rep2 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_C_rep3.stats con_C_rep3_1.fastq.gz con_C_rep3_2.fastq.gz con_C_rep3_paired_1.fq.gz con_C_rep3_unpaired_1.fq.gz con_C_rep3_paired_2.fq.gz con_C_rep3_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 2985739 Both Surviving: 2980743 (99.83%) Forward Only Surviving: 3899 (0.13%) Reverse Only Surviving: 68 (0.00%) Dropped: 1029 (0.03%)
+TrimmomaticPE: Completed successfully
+con_C_rep3 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_E_rep1.stats con_E_rep1_1.fastq.gz con_E_rep1_2.fastq.gz con_E_rep1_paired_1.fq.gz con_E_rep1_unpaired_1.fq.gz con_E_rep1_paired_2.fq.gz con_E_rep1_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3380614 Both Surviving: 3375243 (99.84%) Forward Only Surviving: 4212 (0.12%) Reverse Only Surviving: 81 (0.00%) Dropped: 1078 (0.03%)
+TrimmomaticPE: Completed successfully
+con_E_rep1 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_E_rep2.stats con_E_rep2_1.fastq.gz con_E_rep2_2.fastq.gz con_E_rep2_paired_1.fq.gz con_E_rep2_unpaired_1.fq.gz con_E_rep2_paired_2.fq.gz con_E_rep2_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3206397 Both Surviving: 3201324 (99.84%) Forward Only Surviving: 4101 (0.13%) Reverse Only Surviving: 37 (0.00%) Dropped: 935 (0.03%)
+TrimmomaticPE: Completed successfully
+con_E_rep2 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_E_rep3.stats con_E_rep3_1.fastq.gz con_E_rep3_2.fastq.gz con_E_rep3_paired_1.fq.gz con_E_rep3_unpaired_1.fq.gz con_E_rep3_paired_2.fq.gz con_E_rep3_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3089549 Both Surviving: 3084566 (99.84%) Forward Only Surviving: 3949 (0.13%) Reverse Only Surviving: 45 (0.00%) Dropped: 989 (0.03%)
+TrimmomaticPE: Completed successfully
+con_E_rep3 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_S_rep1.stats con_S_rep1_1.fastq.gz con_S_rep1_2.fastq.gz con_S_rep1_paired_1.fq.gz con_S_rep1_unpaired_1.fq.gz con_S_rep1_paired_2.fq.gz con_S_rep1_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3459053 Both Surviving: 3451832 (99.79%) Forward Only Surviving: 5223 (0.15%) Reverse Only Surviving: 59 (0.00%) Dropped: 1939 (0.06%)
+TrimmomaticPE: Completed successfully
+con_S_rep1 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_S_rep2.stats con_S_rep2_1.fastq.gz con_S_rep2_2.fastq.gz con_S_rep2_paired_1.fq.gz con_S_rep2_unpaired_1.fq.gz con_S_rep2_paired_2.fq.gz con_S_rep2_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3824270 Both Surviving: 3816434 (99.80%) Forward Only Surviving: 5655 (0.15%) Reverse Only Surviving: 73 (0.00%) Dropped: 2108 (0.06%)
+TrimmomaticPE: Completed successfully
+con_S_rep2 cleaning done!
+TrimmomaticPE: Started with arguments:
+ -summary con_S_rep3.stats con_S_rep3_1.fastq.gz con_S_rep3_2.fastq.gz con_S_rep3_paired_1.fq.gz con_S_rep3_unpaired_1.fq.gz con_S_rep3_paired_2.fq.gz con_S_rep3_unpaired_2.fq.gz ILLUMINACLIP:/usr/local/bin/Trimmomatic-0.39/illumina_PE_adapters.fa:2:30:10:2:keepBothReads LEADING:10 TRAILING:10 MINLEN:50
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 2 prefix pairs, 10 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 3250043 Both Surviving: 3243228 (99.79%) Forward Only Surviving: 4915 (0.15%) Reverse Only Surviving: 58 (0.00%) Dropped: 1842 (0.06%)
+TrimmomaticPE: Completed successfully
+con_S_rep3 cleaning done!
+whole read cleaning complete!
