@@ -1,0 +1,158 @@
+Prinseq start!
+Input and filter stats:
+	Input sequences (file 1): 1,094,521
+	Input bases (file 1): 109,859,316
+	Input mean length (file 1): 100.37
+	Input sequences (file 2): 1,094,521
+	Input bases (file 2): 109,132,521
+	Input mean length (file 2): 99.71
+	Good sequences (pairs): 1,078,966
+	Good bases (pairs): 215,853,980
+	Good mean length (pairs): 200.06
+	Good sequences (singletons file 1): 58 (0.01%)
+	Good bases (singletons file 1): 5,778
+	Good mean length (singletons file 1): 99.62
+	Good sequences (singletons file 2): 312 (0.03%)
+	Good bases (singletons file 2): 30,895
+	Good mean length (singletons file 2): 99.02
+	Bad sequences (file 1): 15,497 (1.42%)
+	Bad bases (file 1): 1,563,850
+	Bad mean length (file 1): 100.91
+	Bad sequences (file 2): 15,243 (1.39%)
+	Bad bases (file 2): 1,537,334
+	Bad mean length (file 2): 100.86
+	Sequences filtered by specified parameters:
+	min_qual_score: 616
+	derep: 15090
+C_1 prinseq done
+Input and filter stats:
+	Input sequences (file 1): 1,105,291
+	Input bases (file 1): 110,942,657
+	Input mean length (file 1): 100.37
+	Input sequences (file 2): 1,105,291
+	Input bases (file 2): 110,202,991
+	Input mean length (file 2): 99.70
+	Good sequences (pairs): 1,089,673
+	Good bases (pairs): 217,993,283
+	Good mean length (pairs): 200.05
+	Good sequences (singletons file 1): 112 (0.01%)
+	Good bases (singletons file 1): 11,212
+	Good mean length (singletons file 1): 100.11
+	Good sequences (singletons file 2): 269 (0.02%)
+	Good bases (singletons file 2): 26,285
+	Good mean length (singletons file 2): 97.71
+	Bad sequences (file 1): 15,506 (1.40%)
+	Bad bases (file 1): 1,565,472
+	Bad mean length (file 1): 100.96
+	Bad sequences (file 2): 15,349 (1.39%)
+	Bad bases (file 2): 1,549,396
+	Bad mean length (file 2): 100.94
+	Sequences filtered by specified parameters:
+	min_qual_score: 585
+	derep: 15159
+C_2 prinseq done
+Input and filter stats:
+	Input sequences (file 1): 1,101,257
+	Input bases (file 1): 110,559,166
+	Input mean length (file 1): 100.39
+	Input sequences (file 2): 1,101,257
+	Input bases (file 2): 109,809,672
+	Input mean length (file 2): 99.71
+	Good sequences (pairs): 1,085,761
+	Good bases (pairs): 217,240,513
+	Good mean length (pairs): 200.08
+	Good sequences (singletons file 1): 67 (0.01%)
+	Good bases (singletons file 1): 6,737
+	Good mean length (singletons file 1): 100.55
+	Good sequences (singletons file 2): 307 (0.03%)
+	Good bases (singletons file 2): 30,356
+	Good mean length (singletons file 2): 98.88
+	Bad sequences (file 1): 15,429 (1.40%)
+	Bad bases (file 1): 1,557,702
+	Bad mean length (file 1): 100.96
+	Bad sequences (file 2): 15,189 (1.38%)
+	Bad bases (file 2): 1,533,530
+	Bad mean length (file 2): 100.96
+	Sequences filtered by specified parameters:
+	min_qual_score: 444
+	derep: 15114
+C_3 prinseq done
+Input and filter stats:
+	Input sequences (file 1): 8,185,132
+	Input bases (file 1): 821,237,255
+	Input mean length (file 1): 100.33
+	Input sequences (file 2): 8,185,132
+	Input bases (file 2): 815,670,773
+	Input mean length (file 2): 99.65
+	Good sequences (pairs): 7,892,220
+	Good bases (pairs): 1,577,785,313
+	Good mean length (pairs): 199.92
+	Good sequences (singletons file 1): 401 (0.00%)
+	Good bases (singletons file 1): 40,130
+	Good mean length (singletons file 1): 100.07
+	Good sequences (singletons file 2): 1,942 (0.02%)
+	Good bases (singletons file 2): 191,429
+	Good mean length (singletons file 2): 98.57
+	Bad sequences (file 1): 292,511 (3.57%)
+	Bad bases (file 1): 29,528,017
+	Bad mean length (file 1): 100.95
+	Bad sequences (file 2): 290,970 (3.55%)
+	Bad bases (file 2): 29,363,139
+	Bad mean length (file 2): 100.91
+	Sequences filtered by specified parameters:
+	min_qual_score: 4602
+	derep: 289834
+T_1 prinseq done
+Input and filter stats:
+	Input sequences (file 1): 8,290,933
+	Input bases (file 1): 831,897,401
+	Input mean length (file 1): 100.34
+	Input sequences (file 2): 8,290,933
+	Input bases (file 2): 826,092,126
+	Input mean length (file 2): 99.64
+	Good sequences (pairs): 7,999,592
+	Good bases (pairs): 1,599,175,612
+	Good mean length (pairs): 199.91
+	Good sequences (singletons file 1): 849 (0.01%)
+	Good bases (singletons file 1): 84,675
+	Good mean length (singletons file 1): 99.73
+	Good sequences (singletons file 2): 1,715 (0.02%)
+	Good bases (singletons file 2): 166,506
+	Good mean length (singletons file 2): 97.09
+	Bad sequences (file 1): 290,492 (3.50%)
+	Bad bases (file 1): 29,326,135
+	Bad mean length (file 1): 100.95
+	Bad sequences (file 2): 289,626 (3.49%)
+	Bad bases (file 2): 29,236,599
+	Bad mean length (file 2): 100.95
+	Sequences filtered by specified parameters:
+	min_qual_score: 4244
+	derep: 288296
+T_2 prinseq done
+Input and filter stats:
+	Input sequences (file 1): 8,256,690
+	Input bases (file 1): 828,554,210
+	Input mean length (file 1): 100.35
+	Input sequences (file 2): 8,256,690
+	Input bases (file 2): 822,790,720
+	Input mean length (file 2): 99.65
+	Good sequences (pairs): 7,965,059
+	Good bases (pairs): 1,592,465,464
+	Good mean length (pairs): 199.93
+	Good sequences (singletons file 1): 458 (0.01%)
+	Good bases (singletons file 1): 46,037
+	Good mean length (singletons file 1): 100.52
+	Good sequences (singletons file 2): 1,880 (0.02%)
+	Good bases (singletons file 2): 184,639
+	Good mean length (singletons file 2): 98.21
+	Bad sequences (file 1): 291,173 (3.53%)
+	Bad bases (file 1): 29,397,081
+	Bad mean length (file 1): 100.96
+	Bad sequences (file 2): 289,751 (3.51%)
+	Bad bases (file 2): 29,251,709
+	Bad mean length (file 2): 100.95
+	Sequences filtered by specified parameters:
+	min_qual_score: 3213
+	derep: 289236
+T_3 prinseq done
+Prinseq.sh complete!
